@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title }}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <h3 class="navbar-brand"><img src="images/literate_computing-logo.png"></h3>
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" {% if page.link_ja %} class="active"{% endif %}>
+              <a href="{% if page.link_en %}{{ page.link_en }}{% else %}#{% endif %}">en</a>
+            </li>
+            <li role="presentation" {% if page.link_en %} class="active"{% endif %}>
+              <a href="{% if page.link_ja %}{{ page.link_ja }}{% else %}#{% endif %}">ja</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      {{ content }}
+
+      <footer class="footer">
+        <p>
+          <i class="fa fa-github" aria-hidden="true"></i>
+          <a href="https://github.com/NII-cloud-operation/">github.com/NII-cloud-operation</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
