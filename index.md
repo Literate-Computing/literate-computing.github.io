@@ -6,7 +6,9 @@ layout: home
 ---
 
 ## What is LC4RI?
+It is as important to share infrastructure design and elaborated workflows with participants as to actually automate complex operations. Literate Computing for Reproducible Infrastructure is an approach both to describe automated operations as live code and to share predicted and reproducible outcomes among technical and non-technical alike in the form of narrative stories.  We utilize Jupyter Notebook for shareing reproducible experience. 
 
+## Literate Computing tools
 The goals for Literate Computing tools are:
 
 - Preventing miss-operation; once a cell has been executed, it “freezes” against unintended execution. Also you can “lock” cells for unintended modification.
