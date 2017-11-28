@@ -38,9 +38,9 @@ You can login the Notebook server with the authentication token in the startup m
 
 
 {% capture run_through %}
-### run_through
+### LC_run_through
 
-[run_through](https://github.com/NII-cloud-operation/Jupyter-LC_run_through)
+[LC_run_through](https://github.com/NII-cloud-operation/Jupyter-LC_run_through)
 
 {% include youtube.html id='pkzE_nwtEKQ' %}
 {% endcapture %}
