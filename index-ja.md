@@ -1,6 +1,6 @@
 ---
 title: Literate Computing for Reproducible Infrastructure
-description: LC4RI - インフラエンジニアのためのツールセット
+description: インフラエンジニアのためのツールセット - 文芸的機械化
 link_en: index.html
 layout: home
 ---

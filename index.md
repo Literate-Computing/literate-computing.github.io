@@ -1,12 +1,27 @@
 ---
-title: Literate Computing for Reproducible Infrastructure
-description: LC4RI - Toolset for an Infrastructure Engineer
+title: <span class="text-info">L</span>iterate <span class="text-info">C</span>omputing <span class="text-info">for R</span>eproducible <span class="text-info">I</span>nfrastructure
+description: Toolset for an Infrastructure Engineer - 文芸的機械化のススメ
 link_ja: index-ja.html
 layout: home
 ---
 
-## What is LC4RI?
-It is as important to share infrastructure design and elaborated workflows with participants as to actually automate complex operations. Literate Computing for Reproducible Infrastructure is an approach both to describe automated operations as live code and to share predicted and reproducible outcomes among technical and non-technical alike in the form of narrative stories.  We utilize Jupyter Notebook for shareing reproducible experience.
+## What is <span class="text-info">LC4RI</span>?
+It is as important to share and communicate about infrastructure design and elaborated workflows with participants as to actually automate complex operations. <span class="text-info">Literate Computing for Reproducible Infrastructure</span> is an approach both to describe automated operations as live code and to share predicted and reproducible outcomes among technical and non-technical alike in the form of narrative stories.  We utilize Jupyter Notebook for shareing reproducible experience.
+
+#### Automated Operation [機械化] ≠ Automation [自働化]
+<small>
+We would like to accomplish traceability and reproducibility in engineering operations. For those primary purposes, we utilize computational narrative tools, i.e. Jupyter Notebook. Every operation is described with no doubt and can be automated. Automated operation is always along with human in the loop and bound up with a situation. It is something different from distilled automation resulting in an anesthetizing effect 
+<i><small><small><span class="text-muted">([Nicholas InCarr. The Glass Cage](https://image.slidesharecdn.com/jupytercon-masatani-170825211000/95/jupytercon-2017-collaboration-and-automated-operation-as-literate-computing-for-reproducible-infrastructure-26-638.jpg))
+</span></small></small></i>
+.
+Automated operation is a partnership between human and machine and augments our ability to learn and expertise.
+</small>
+
+
+#### Collaboration and Communication 
+<small>
+For reproducibility and resilience for long-term sustainability, it is important not only to share knowledge but also to share reproducible experience participating both tech and non-tech alike.  Narrative stories allow collaborative communication between experts and novices to accumulate infrastructure knowledge and operational experience within an operation team. Moreover, it is efficient to share understanding of how an infrastructure is usable and really works between tech ops and non-tech users. Narrative stories also help communicate with users about how services are delivered and customized considering reproducibility.
+</small>
 
 ## Literate Computing tools
 The goals for Literate Computing tools are:
