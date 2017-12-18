@@ -10,7 +10,7 @@ It is as important to share and communicate about infrastructure design and elab
 
 #### Automated Operation [機械化] ≠ Automation [自働化]
 <small>
-We would like to accomplish traceability and reproducibility in engineering operations. For those primary purposes, we utilize computational narrative tools, i.e. Jupyter Notebook. Every operation is described with no doubt and can be automated. Automated operation is always along with human in the loop and bound up with a situation. It is something different from distilled automation resulting in an anesthetizing effect 
+We would like to accomplish traceability and reproducibility in engineering operations. For those primary purposes, we utilize computational narrative tools, i.e. Jupyter Notebook. Every operation is described with no doubt and can be automated. Automated operation is always along with human in the loop and bound up with a situation. It is something different from distilled automation, which tends to result in an anesthetizing effect 
 <i><small><small><span class="text-muted">([Nicholas InCarr. The Glass Cage](https://image.slidesharecdn.com/jupytercon-masatani-170825211000/95/jupytercon-2017-collaboration-and-automated-operation-as-literate-computing-for-reproducible-infrastructure-26-638.jpg))
 </span></small></small></i>
 .
@@ -24,11 +24,11 @@ For reproducibility and resilience for long-term sustainability, it is important
 </small>
 
 ## Literate Computing tools
-The goals for Literate Computing tools are:
-
-- Preventing miss-operation; once a cell has been executed, it “freezes” against unintended execution. Also you can “lock” cells for unintended modification.
-- Adding a perspective into a notebook; markdown’s hierarchy is collapsible as document according to your focus. However, embedded cells underneath are represented as dots and run through with a click as a routine procedure.
-
+Literate Computing Tools are our enhancements to Jupyter for achieving following goals:
+- <small>Giving awareness where you are; the cells are colored depending on their statuses. You can see how operation is in progress and whether it has been succeeded. Light Cyan, Linen and Pink represent "running", "finished successfully" and "finished with errors" respectively.</small>
+- <small>Preventing miss-operation; once a cell has been executed, it “freezes” against unintended execution. Frozen cells will not be executed nor edited until those will be unfrozen.</small>
+- <small>A good operational outlook; as an enhancement for collapsible headings, collapsed code cells underneath are represented as bricks. The number of bricks represent operational complexities. Plus, you can run through whole bricks (collapsed code cells) with one click as a routine procedure. The progress is also represented by color changes of bricks.</small>
+- <small>Assure traceability; infrastructure operation can generate massive output lines. LC_wrapper kernel summarizes output lines and simultaneously all original output lines are saved into an individual file with a time stamp at each execution. You can investigate whole output and compare with previous results for reviewing.</small>
 
 ## Try the Demo
 
@@ -42,15 +42,6 @@ You can login the Notebook server with the authentication token in the startup m
 
 ## Jupyter Extensions
 
-{% capture lc_wrapper %}
-
-[LC_wrapper Kernel](https://github.com/NII-cloud-operation/Jupyter-LC_wrapper)
-
-{% include youtube.html id='-28XG7aHYY8' %}
-{% endcapture %}
-{% include topic.html content=lc_wrapper %}
-
-
 {% capture run_through %}
 
 [LC_run_through Extension](https://github.com/NII-cloud-operation/Jupyter-LC_run_through)
@@ -59,6 +50,13 @@ You can login the Notebook server with the authentication token in the startup m
 {% endcapture %}
 {% include topic.html content=run_through %}
 
+{% capture lc_wrapper %}
+
+[LC_wrapper Kernel](https://github.com/NII-cloud-operation/Jupyter-LC_wrapper)
+
+{% include youtube.html id='-28XG7aHYY8' %}
+{% endcapture %}
+{% include topic.html content=lc_wrapper %}
 
 ## Other Extensions
 
@@ -66,6 +64,10 @@ You can login the Notebook server with the authentication token in the startup m
 - [nblineage](https://github.com/NII-cloud-operation/Jupyter-LC_nblineage)
 - [i18n_cells](https://github.com/NII-cloud-operation/Jupyter-i18n_cells)
 
+<dl class="dl-horizontal">
+  <dt>...</dt>
+  <dd>...</dd>
+</dl>
 ## Notebooks for Reproducible Infrastructure
 
 - [Literate-computing-Basics](https://github.com/NII-cloud-operation/Literate-computing-Basics)
