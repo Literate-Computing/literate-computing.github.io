@@ -1,6 +1,6 @@
 ---
 title: <span class="text-info">L</span>iterate <span class="text-info">C</span>omputing <span class="text-info">for R</span>eproducible <span class="text-info">I</span>nfrastructure
-description: Toolset for an Infrastructure Engineer - 文芸的機械化のススメ
+description: <small><small><b><span class="text-danger">Jupyter</span> based Toolset for an Infrastructure Engineer - <span class="text-danger">文芸的機械化</span>のススメ</b></small></small>
 link_ja: index-ja.html
 layout: home
 ---
