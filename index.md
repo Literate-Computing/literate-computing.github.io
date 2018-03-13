@@ -81,7 +81,7 @@ You can login the Notebook server with the authentication token in the startup m
 </font>
 {% endraw %}
 
-The following video presents early practices back to late 2015 and 2016Q1.  Since then we have been developed *Literate Computing Tools* as enhancement of [Jupyter](http://jupyter.org/).
+The following video presents early practices back to late 2015 and 2016Q1.  Since then we have been developed *Literate Computing Tools* as enhancement of [Jupyter](https://jupyter.org/).
 
 {% capture the_beginning %}
 {% include youtube-w.html id='T309jbgdaqI' %}
