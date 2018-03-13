@@ -39,6 +39,8 @@ You can start the Notebook server on port 8888 with the following command.
 docker run -it --rm -p 8888:8888 niicloudoperation/notebook:latest
 ```
 
+<a class="github-button" href="https://github.com/NII-cloud-operation/Jupyter-LC_docker" data-icon="octicon-star" data-show-count="true" aria-label="Star on GitHub">Star</a>
+
 You can login the Notebook server with the authentication token in the startup message.
 
 ## Jupyter Extensions
@@ -46,6 +48,7 @@ You can login the Notebook server with the authentication token in the startup m
 {% capture run_through %}
 
 [LC_run_through Extension](https://github.com/NII-cloud-operation/Jupyter-LC_run_through)
+<a class="github-button" href="https://github.com/NII-cloud-operation/Jupyter-LC_run_through" data-icon="octicon-star" data-show-count="true" aria-label="Star on GitHub">Star</a>
 
 {% include youtube.html id='pkzE_nwtEKQ' %}
 {% endcapture %}
@@ -54,6 +57,7 @@ You can login the Notebook server with the authentication token in the startup m
 {% capture lc_wrapper %}
 
 [LC_wrapper Kernel](https://github.com/NII-cloud-operation/Jupyter-LC_wrapper)
+<a class="github-button" href="https://github.com/NII-cloud-operation/Jupyter-LC_wrapper" data-icon="octicon-star" data-show-count="true" aria-label="Star on GitHub">Star</a>
 
 {% include youtube.html id='-28XG7aHYY8' %}
 {% endcapture %}
@@ -62,8 +66,13 @@ You can login the Notebook server with the authentication token in the startup m
 ## Other Extensions
 
 - [multi_outputs](https://github.com/NII-cloud-operation/Jupyter-multi_outputs)
+<a class="github-button" href="https://github.com/NII-cloud-operation/Jupyter-multi_outputs" data-icon="octicon-star" data-show-count="true" aria-label="Star on GitHub">Star</a>
 - [nblineage](https://github.com/NII-cloud-operation/Jupyter-LC_nblineage)
+<a class="github-button" href="https://github.com/NII-cloud-operation/Jupyter-LC_nblineage" data-icon="octicon-star" data-show-count="true" aria-label="Star on GitHub">Star</a>
+- [Jupyter-LC_index](https://github.com/NII-cloud-operation/Jupyter-LC_index)
+<a class="github-button" href="https://github.com/NII-cloud-operation/Jupyter-LC_index" data-icon="octicon-star" data-show-count="true" aria-label="Star on GitHub">Star</a>
 - [i18n_cells](https://github.com/NII-cloud-operation/Jupyter-i18n_cells)
+<a class="github-button" href="https://github.com/NII-cloud-operation/Jupyter-i18n_cells" data-icon="octicon-star" data-show-count="true" aria-label="Star on GitHub">Star</a>
 
 <dl class="dl-horizontal">
   <dt>...</dt>
@@ -72,8 +81,11 @@ You can login the Notebook server with the authentication token in the startup m
 ## Notebooks for Reproducible Infrastructure
 
 - [Literate-computing-Basics](https://github.com/NII-cloud-operation/Literate-computing-Basics)
+<a class="github-button" href="https://github.com/NII-cloud-operation/Literate-computing-Basics" data-icon="octicon-star" data-show-count="true" aria-label="Star on GitHub">Star</a>
 - [Literate-computing-Hadoop](https://github.com/NII-cloud-operation/Literate-computing-Hadoop)
+<a class="github-button" href="https://github.com/NII-cloud-operation/Literate-computing-Hadoop" data-icon="octicon-star" data-show-count="true" aria-label="Star on GitHub">Star</a>
 - [Literate-computing-Elasticsearch](https://github.com/NII-cloud-operation/Literate-computing-Elasticsearch)
+<a class="github-button" href="https://github.com/NII-cloud-operation/Literate-computing-Elasticsearch" data-icon="octicon-star" data-show-count="true" aria-label="Star on GitHub">Star</a>
 
 {% raw %}
 <font color="MidnightBlue">
