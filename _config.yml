@@ -10,5 +10,6 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: minima
+google_analytics: UA-115651072-1
 plugins:
   - jekyll-feed
