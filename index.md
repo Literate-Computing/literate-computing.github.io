@@ -6,7 +6,7 @@ layout: home
 ---
 
 ## What is <span class="text-info">LC4RI</span>?
-It is as important to share and communicate about infrastructure design and elaborated workflows with participants as to actually automate complex operations. <span class="text-info">Literate Computing for Reproducible Infrastructure</span> is an approach both to describe automated operations as live code and to share predicted and reproducible outcomes among technical and non-technical alike in the form of narrative stories.  We utilize <span class="text-info">Jupyter Notebook</span> for shareing reproducible experience. 
+It is as important to share and communicate about infrastructure design and elaborated workflows with participants as to actually automate complex operations. <span class="text-info">Literate Computing for Reproducible Infrastructure</span> is an approach both to describe automated operations as live code and to share predicted and reproducible outcomes among technical and non-technical alike in the form of narrative stories.  We utilize <span class="text-info">Jupyter Notebook</span> for sharing reproducible experience. 
 The operational engineering and DevOps should be one of distinctive application areas for Jupyter.
 
 #### Automated Operation [機械化] ≠ Automation [自働化]
