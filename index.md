@@ -26,7 +26,7 @@ For reproducibility and resilience for long-term sustainability, it is crucial n
 </small>
 
 ## Literate Computing tools
-Literate Computing Tools are our enhancements to Jupyter for achieving following goals:
+Literate Computing Tools are our enhancements to Jupyter for achieving the following goals:
 - <small>
 Giving awareness where you are; the cells are colored depending on their statuses. You can see how an operation is in progress and whether it has been succeeded. Light Cyan, Linen, and Pink represent “running”, “finished successfully” and “finished with errors” respectively.
 </small>
