@@ -6,30 +6,39 @@ layout: home
 ---
 
 ## What is <span class="text-info">LC4RI</span>?
-It is as important to share and communicate about infrastructure design and elaborated workflows with participants as to actually automate complex operations. <span class="text-info">Literate Computing for Reproducible Infrastructure</span> is an approach both to describe automated operations as live code and to share predicted and reproducible outcomes among technical and non-technical alike in the form of narrative stories.  We utilize <span class="text-info">Jupyter Notebook</span> for sharing reproducible experience. 
-The operational engineering and DevOps should be one of distinctive application areas for Jupyter.
+It is as essential as to share and communicate about infrastructure design and elaborated workflows with participants as to actually automate complex operations. 
+<span class="text-info">Literate Computing for Reproducible Infrastructure</span> is an approach both to describe automated operations as live code and to share predicted and reproducible outcomes among technical and non-technical alike in the form of narrative stories.  We utilize <span class="text-info">Jupyter Notebook</span> for sharing the reproducible experience. 
+Operational engineering and DevOps should be one of the distinctive application areas for Jupyter.
 
-#### Automated Operation [機械化] ≠ Automation [自働化]
+#### "Automated Operation" [機械化] ≠ "Automation" [自働化]
 <small>
-We would like to accomplish traceability and reproducibility in engineering operations. For those primary purposes, we utilize computational narrative tools, i.e. Jupyter Notebook. Every operation is described with no doubt and can be automated. Automated operation is always along with human in the loop and bound up with a situation. It is something different from distilled automation, which tends to result in an anesthetizing effect 
+We want to accomplish traceability and reproducibility in engineering operations. For those primary purposes, we utilize computational narrative tools, i.e., Jupyter Notebook. Every operation is described with no doubt and can be automated. Automated operation is always along with humans in the loop and bound up with a situation. It is something different from distilled automation, which tends to result in an anesthetizing effect 
 <i><small><small><span class="text-muted">([Nicholas InCarr. The Glass Cage](https://image.slidesharecdn.com/jupytercon-masatani-170825211000/95/jupytercon-2017-collaboration-and-automated-operation-as-literate-computing-for-reproducible-infrastructure-26-638.jpg))
 </span></small></small></i>
 .
-Automated operation is a partnership between human and machine and augments our ability to learn and expertise.
+Automated operation is a partnership between humans and machines and augments our ability to learn and expertise.
 </small>
 
 
 #### Collaboration and Communication 
 <small>
-For reproducibility and resilience for long-term sustainability, it is important not only to share knowledge but also to share reproducible experience participating both tech and non-tech alike.  Narrative stories allow collaborative communication between experts and novices to accumulate infrastructure knowledge and operational experience within an operation team. Moreover, it is efficient to share understanding of how an infrastructure is usable and really works between tech ops and non-tech users. Narrative stories also help communicate with users about how services are delivered and customized considering reproducibility.
+For reproducibility and resilience for long-term sustainability, it is crucial not only to share knowledge but also to share reproducible experience participating in both tech and non-tech alike. Narrative stories allow collaborative communication between experts and novices to accumulate infrastructure knowledge and operational experience within an operation team. Moreover, it is efficient to share an understanding of how infrastructure is usable and really works between tech ops and non-tech users. Narrative stories also help communicate with users about how services are delivered and customized, considering reproducibility.
 </small>
 
 ## Literate Computing tools
 Literate Computing Tools are our enhancements to Jupyter for achieving following goals:
-- <small>Giving awareness where you are; the cells are colored depending on their statuses. You can see how operation is in progress and whether it has been succeeded. Light Cyan, Linen and Pink represent "running", "finished successfully" and "finished with errors" respectively.</small>
-- <small>Preventing miss-operation; once a cell has been executed, it “freezes” against unintended execution. Frozen cells will not be executed nor edited until those will be unfrozen.</small>
-- <small>A good operational outlook; as an enhancement for collapsible headings, collapsed code cells underneath are represented as bricks. The number of bricks represent operational complexities. Plus, you can run through whole bricks (collapsed code cells) with one click as a routine procedure. The progress is also represented by color changes of bricks.</small>
-- <small>Assure traceability; infrastructure operation can generate massive output lines. LC_wrapper kernel summarizes output lines and simultaneously all original output lines are saved into an individual file with a time stamp at each execution. You can investigate whole output and compare with previous results for reviewing.</small>
+- <small>
+Giving awareness where you are; the cells are colored depending on their statuses. You can see how an operation is in progress and whether it has been succeeded. Light Cyan, Linen, and Pink represent “running”, “finished successfully” and “finished with errors” respectively.
+</small>
+- <small>
+Preventing miss-operation; once a cell has been executed, it “freezes” against unintended execution. Frozen cells will not be executed nor edited until those will be unfrozen.
+</small>
+- <small>
+A good operational outlook; as an enhancement for collapsible headings, collapsed code cells underneath are represented as bricks. The number of bricks represents operational complexities. Plus, you can run through whole bricks (collapsed code cells) with one click as a routine procedure. Color changes of bricks also represent the progress.
+</small>
+- <small>
+Assure traceability; infrastructure operation can generate massive output lines. LC_wrapper kernel summarizes output lines, and simultaneously all original output lines are saved into an individual file with a timestamp at each execution. You can investigate the total output and compare it with previous results for reviewing.
+</small>
 
 ## Try the Demo
 
@@ -93,7 +102,7 @@ You can login the Notebook server with the authentication token in the startup m
 </font>
 {% endraw %}
 
-The following video presents early practices back to late 2015 and 2016Q1.  Since then we have been developed *Literate Computing Tools* as enhancement of [Jupyter](https://jupyter.org/).
+The following video presents early practices back to late 2015 and 2016Q1.  Since then, we have been developed *Literate Computing Tools* as enhancement of [Jupyter](https://jupyter.org/).
 
 {% capture the_beginning %}
 {% include youtube-w.html id='T309jbgdaqI' %}
