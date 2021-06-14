@@ -19,7 +19,7 @@ Literate Computing for Reproducible Infrastructure（以下 「LC4RI」）は、
 このデモ環境ではJupyterのインタフェースを使って、運用作業の一例としてのログ分析や、我々のチームがLC4RIの実践のために開発している各種Extensionを使ってみるといった体験ができます。
 
 <big><span style='background-color:lightyellow;'>
-[openhouse-demo](https://mybinder.org/v2/gh/NII-cloud-operation/Jupyter-LC_docker/openhouse-2019-demo)
+[openhouse-demo](https://mybinder.org/v2/gh/NII-cloud-operation/Jupyter-LC_docker/openhouse-2021-demo)
 </span>
 
 <small>
